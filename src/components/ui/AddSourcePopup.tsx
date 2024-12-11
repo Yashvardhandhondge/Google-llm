@@ -128,7 +128,7 @@ const AddSourcePopup = () => {
                     {/* Modal Header */}
                     <div className="flex items-center justify-between p-6 border-b">
                         <div className="flex items-center gap-2">
-                            <h2 className="text-xl font-semibold text-gray-900">
+                            <h2 className="text-xl font-semibold  text-[#42526E]">
                                 Add Sources
                             </h2>
                         </div>

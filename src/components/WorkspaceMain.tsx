@@ -1048,6 +1048,7 @@ Make sure that it’s easy to understand and contains the primary information in
                                                 >
                                                     <input
                                                         type="checkbox"
+                                                        className="text-[26AF36]"
                                                         checked={data.isChecked}
                                                         onClick={() =>
                                                             handlePullDataCheck(
@@ -1094,9 +1095,9 @@ Make sure that it’s easy to understand and contains the primary information in
                                         <SheetTitle className="text-2xl font-light">
                                             Generate
                                         </SheetTitle>
-                                        <p className="border-b-2 mt-2">
-                                            Report
-                                        </p>
+                                        <p className="border-b-2 mt-2 font-['SF_Pro'] font-semibold text-[16px] text-[#6DA2FF]">
+    Report
+</p>
                                     </SheetHeader>
                                     <div className="flex gap-2 justify-center">
                                         <div className="space-y-2">

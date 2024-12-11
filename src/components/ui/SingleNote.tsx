@@ -78,6 +78,7 @@ const SingleNote: React.FC<SingleNoteProps> = ({
                             <div className="flex gap-2">
                                 <input
                                     type="checkbox"
+                                    className="text-[26AF36]"
                                     checked={selectedNotes[indx]}
                                     onClick={(e) => {
                                         e.stopPropagation();
@@ -129,9 +130,9 @@ const SingleNote: React.FC<SingleNoteProps> = ({
                         <h4
                             className={`${
                                 type === "Written Note"
-                                    ? "text-[#26AF36]"
+                                    ? "text-[#26AF36] font-semibold font-sfpro"
                                     : type === "Saved"
-                                    ? "text-[#6DA2FF]"
+                                    ? "text-[#6DA2FF] font-semibold font-sfpro"
                                     : type === "Report"
                                     ? "text-[#6DA2FF]"
                                     : "text-[#42526E]"
@@ -146,6 +147,7 @@ const SingleNote: React.FC<SingleNoteProps> = ({
                     <div className="flex gap-2">
                         <input
                             type="checkbox"
+                            className="text-[26AF36]"
                             checked={selectedNotes[indx]}
                             onClick={(e) => {
                                 e.stopPropagation();

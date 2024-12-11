@@ -14,7 +14,8 @@ import {
     SheetTrigger,
 } from "../components/ui/sheet";
 import axios from "axios";
-
+//dummy commit
+//dwmlm
 const API_URL = import.meta.env.VITE_API_URL;
 interface WorkspaceSidebarProps {
     handleCheckboxChange: (indx: number) => void;
@@ -181,7 +182,7 @@ const WorkspaceSidebar: React.FC<WorkspaceSidebarProps> = ({
                         <span>Select all integrations</span>
                         <input
                             type="checkbox"
-                            className="rounded text-blue-500"
+                            className="rounded text-[26AF36]"
                             defaultChecked
                         />
                     </label>
@@ -199,7 +200,7 @@ const WorkspaceSidebar: React.FC<WorkspaceSidebarProps> = ({
                                     </div>
                                     <input
                                         type="checkbox"
-                                        className="rounded text-blue-500"
+                                        className="rounded text-[26AF36]"
                                         defaultChecked
                                         disabled
                                     />
@@ -213,11 +214,10 @@ const WorkspaceSidebar: React.FC<WorkspaceSidebarProps> = ({
                                             alt="analytics"
                                             className="h-[22px]"
                                         />
-                                        <p>Google Analytics</p>
-                                    </div>
+   <p className="font-semibold text-[16px] text-[#42526E]" style={{ fontFamily: 'SF Pro' }}>Google Analytics</p>                                    </div>
                                     <input
                                         type="checkbox"
-                                        className="rounded text-blue-500"
+                                        className="rounded text-[26AF36]"
                                         defaultChecked
                                         disabled
                                     />
@@ -242,7 +242,7 @@ const WorkspaceSidebar: React.FC<WorkspaceSidebarProps> = ({
                         <span>Select all Sources</span>
                         <input
                             type="checkbox"
-                            className="rounded text-blue-500"
+                            className="rounded text-[26AF36]"
                             checked={allSources}
                             onClick={() => setAllSources((prev) => !prev)}
                         />
@@ -409,7 +409,7 @@ const WorkspaceSidebar: React.FC<WorkspaceSidebarProps> = ({
                                     </div>
                                     <input
                                         type="checkbox"
-                                        className="rounded text-blue-500"
+                                        className="rounded text-[26AF36]"
                                         checked={checkedSource[indx]}
                                         onClick={() =>
                                             handleCheckboxChange(indx)

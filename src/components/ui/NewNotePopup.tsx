@@ -99,7 +99,7 @@ const NewNotePopup: React.FC<NewNotePopupProps> = ({
                 <div className="flex items-center justify-between pl-5 pr-5">
                     <div className="flex items-center space-x-2">
                         <Pen className="w-5 h-5 text-green-600" />
-                        <span className="text-green-600 font-medium">
+                        <span className="font-semibold text-[16px] text-[#26AF36]" style={{ fontFamily: 'SF Pro' }}>
                             Written Note
                         </span>
                     </div>
